@@ -8,6 +8,6 @@ describe('Protractor demo app', () => {
         element(by.id('gobutton')).click();
 
         expect(element(by.binding('latest')).getText()).
-            toEqual('5') // fail 1+2 = 5
+            toEqual('3')
     });
 });
